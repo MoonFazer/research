@@ -7,10 +7,11 @@ authors = ["nathandbrowne <nathan.browne1@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 pandas = "^1.4.1"
-cctx = "^1.0.0"
+ccxt = "^1.77.36"
 numpy = "^1.22.3"
-ccxt = "^1.77.26"
-plotly = "^5.6.0"
+matplotlib = "^3.5.1"
+psutil = "^5.9.0"
+loguru = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
 
